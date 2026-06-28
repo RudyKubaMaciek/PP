@@ -1,0 +1,8 @@
+🧠 Jak działa to bashowe czary-mary? (Do obrony)
+Wzorzec [0-9]: To tzw. wyrażenie regularne w uproszczonej wersji. Dzięki niemu pętla ignoruje pliki kopie-1.zip i bierze się tylko za te, których nazwa składa się z 4 cyfr, myślnika, 2 cyfr, myślnika i 2 cyfr.
+
+Cięcie stringów (${plik:0:4}): To wbudowana funkcja Basha do operowania na tekście. Zapis :0:4 oznacza: "weź zmienną, zacznij od samego początku (indeks 0) i utnij dokładnie 4 znaki". Dzięki temu z nazwy 2010-05-22.zip wyciągamy idealnie samo 2010.
+
+mv (move): Zamiast kopiować pliki (co zajęłoby podwójnie miejsce na dysku), przenosimy je do docelowych folderów. Pierwotny bałagan po prostu znika z głównego katalogu.
+
+Po pomyślnym wykonaniu skryptu, w katalogu posortowane znajdziesz piękną, chronologiczną strukturę folderów z posegregowanymi archiwami ZIP.
