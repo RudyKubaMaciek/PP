@@ -1,4 +1,4 @@
-yjaśnienie mechaniki (gdyby doktor Koczubiej pytał)
+
 Użyliśmy tutaj mechanizmu Basha o nazwie Here-Document (w skrócie heredoc), realizowanego przez składnię cat << ZNAK_KONCA ... ZNAK_KONCA.
 Jak to działa?
 
